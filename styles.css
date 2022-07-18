@@ -1,0 +1,72 @@
+h3 {
+    
+   
+   padding: 30px;
+   margin:30px
+}
+
+
+    
+
+
+
+.origami:hover p{
+    opacity: 1;
+}
+
+.header{
+    background-color: rgb(80,80,80);
+    display: flex;
+    justify-content: space-between;
+    border: solid maroon;
+}
+body{background-color: green;
+    border: ridge;
+    border-color: brown;
+ } 
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+a:link{
+    color: blue;
+
+}
+a:visited{
+    color:pink
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.menu{
+margin-right: 30px;
+
+}
+.menu a{
+    margin-left: 30px;
+}
+.origami{
+position: relative;
+}
+.origami p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.origami:hover img{
+    opacity: 0.33;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: peru;
+}
+
+p,h2{
+    text-align: center;
+}
